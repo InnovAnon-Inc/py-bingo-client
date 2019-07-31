@@ -27,12 +27,12 @@ Examples
 Quick start - Server
 --------------------
 
-cd src/server && ./server.py 0.0.0.0:31425
+`cd src/server && ./server.py 0.0.0.0:31425`
 
 Quick start - Client
 --------------------
 
-cd src/client && ./client.py localhost:31425
+`cd src/client && ./client.py localhost:31425`
 
 License
 -------
@@ -40,3 +40,7 @@ License
 Why not use Twisted instead?
 ---------------------------
 
+Thanks
+------
+
+Special thanks to [R. Fellini](https://github.com/r-fellini-inc).
