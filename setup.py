@@ -11,7 +11,7 @@ try:
 except:
    long_description = ''
 
-versionfile = "PodSixNet/version.py"
+versionfile = "src/version.py"
 if not os.path.isfile(versionfile):
     # assume git checkout
     __version__ = str(subprocess.check_output(["git", "describe", "--tag", "--always"])).strip("\n")
@@ -21,11 +21,11 @@ else:
 
 setup(
     version=__version__,
-    name='PodSixNet',
-    description='Multiplayer networking library for games',
+    name='py-bingo',
+    description='Multiplayer networking Bingo',
     long_description=long_description,
-    author='Chris McCormick',
-    author_email='chris@mccormick.cx',
-    url='https://github.com/chr15m/PodSixNet',
-    packages=['PodSixNet'],
+    author='InnovAnon, Inc.',
+    author_email='InnovAnon-Inc@protonmail.com',
+    url='https://github.com/InnovAnon-Inc/PodSixNet',
+    packages=['src'],
 )
