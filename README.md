@@ -27,7 +27,7 @@ Examples
 Quick start - Client
 --------------------
 
-`cd src/client && ./client.py localhost:31425`
+`client/client.py lmaddox.chickenkiller.com:31425`
 
 License
 -------

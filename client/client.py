@@ -62,6 +62,7 @@ class Client(ConnectionListener):
     def Network_players(self, data):
         print("*** players: " + ", ".join([p for p in data['players']]))
         self.game.active_scene.SwitchToScene(LobbyScene())
+        #self.game.active_scene.SwitchToScene(LobbyScene(data['players'], data['playing']))
     
     def Network_message(self, data):
         print(data['who'] + ": " + data['message'])
