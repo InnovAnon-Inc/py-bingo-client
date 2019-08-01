@@ -4,7 +4,7 @@ python:
   - "3.4"
   - "3.7-dev"
 install:
-  - echo "__version__='0.0.0-test'" > src/version.py
+  - echo "__version__='0.0.0-test'" > client/version.py
   - pip install -e .
 script:
-  - python src/test.py
+  - python client/test.py
