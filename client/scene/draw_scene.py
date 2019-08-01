@@ -20,7 +20,7 @@ class DrawScene(SceneBase):
 		# TODO construct new instance ?
                 self.SwitchToScene(GameScene(self.board, self.history))
                 return
-        if (pygame.time.get_ticks() - self.start_ticks) / 1000 > 1 / 3: self.SwitchToScene(GameScene(self.board, self.history))
+        if (pygame.time.get_ticks() - self.start_ticks) / 1000 > 3: self.SwitchToScene(GameScene(self.board, self.history))
         
     def Update(self):
         pass
