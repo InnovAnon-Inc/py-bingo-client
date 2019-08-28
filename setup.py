@@ -27,5 +27,5 @@ setup(
     author='InnovAnon, Inc.',
     author_email='InnovAnon-Inc@protonmail.com',
     url='https://github.com/InnovAnon-Inc/py-bingo-client',
-    packages=['client'],
+    packages=['client', 'client/scene'],
 )
