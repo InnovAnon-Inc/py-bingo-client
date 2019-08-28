@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo "__version__='`git describe --tag --always`'" > client/version.py
-python setup.py sdist
-twine upload dist/*
+python3 setup.py sdist
+#twine upload dist/*
